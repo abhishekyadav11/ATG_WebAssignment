@@ -1,0 +1,495 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ATG</title>
+    <link rel="stylesheet" href="style.css">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+        crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <div class="bottom-fixed">
+        <img src="./Images/edit.png" alt="">
+    </div>
+    <div class="d-sm-flex d-none justify-content-around align-items-center mt-3 mb-3 topnav">
+        <div>
+            <img src="./Images/whole.png" alt="">
+        </div>
+        <div class="d-md-flex d-none justify-content-evenly p-2 align-items-center w-25 rounded-5 search">
+            <i class="bi bi-search d-xl-flex d-none"></i>
+            <input type="text" placeholder="Search for your favorite groups in ATG" class="w-lg-100 w-75">
+        </div>
+        <div>
+            <a class="createButton" data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Create account. <span
+                    class="text-primary fw-semibold d-sm-inline d-none">It's free!</span><i
+                    class="bi bi-caret-down-fill"></i></a>
+        </div>
+    </div>
+    <div class="img-container text-center">
+        <div class="position-relative" style="filter: brightness(50%)">
+            <img src="./Images/Header-Img.jpg" alt="" class="img-fluid img-header">
+        </div>
+        <div class="position-absolute join">
+            <div>
+                <i class="bi bi-arrow-left"></i>
+            </div>
+            <div
+                class="p-2 pb-1 ps-lg-3 ps-2 pe-lg-3 pe-2 post text-center text-white border border-1 rounded-2 bg-transparent">
+                <h6 data-bs-target="#exampleModalToggle" data-bs-toggle="modal">Join Group</h6>
+            </div>
+
+        </div>
+        <div class="position-absolute text-white d-flex flex-column flex-start">
+            <h2>Computer Engineering</h2>
+            <p class="text-left">142,765 Computer Engineers follow this</p>
+        </div>
+    </div>
+
+    <div class="container-md container-fluid mt-4 pb-5">
+        <div class="d-flex justify-content-between">
+            <nav class="nav">
+                <a class="nav-link active text-dark fw-medium d-md-flex d-none" aria-current="page" href="#">All
+                    Posts(32)</a>
+                <a class="nav-link text-secondary d-md-flex d-none" href="#">Article</a>
+                <a class="nav-link text-secondary d-md-flex d-none" href="#">Event</a>
+                <a class="nav-link text-secondary d-md-flex d-none">Education</a>
+                <a class="nav-link text-secondary d-md-flex d-none">Job</a>
+                <a class="nav-link active text-dark fw-medium d-md-none d-flex" aria-current="page"
+                    href="#">Posts(368)</a>
+            </nav>
+
+            <div class="d-flex align-items-center">
+                <div class="p-2 pb-1 ps-lg-3 ps-2 pe-lg-3 pe-2 post text-center rounded-2 d-md-flex d-none">
+                    <h6>Write a Post <span><i class="bi bi-caret-down-fill"></i></span></h6>
+                </div>
+                <div class="bg-primary text-white p-2 pb-1 ps-3 pe-3 text-center ms-2 rounded-2 d-md-flex d-none">
+                    <h6><span><i class="bi bi-person-fill-add"></i></span> Join Group</h6>
+                </div>
+                <div class="p-2 pb-1 ps-4 pe-4 post text-center rounded-2 d-md-none d-flex justify-content-between">
+                    <h6 class="me-3">Filter: All</h6>
+                    <i class="bi bi-caret-down-fill ms-2"></i>
+                </div>
+            </div>
+        </div>
+        <hr class="d-md-flex d-none">
+
+        <div class="row mb-3 mt-md-1 mt-2">
+            <div class="col-lg-7 col-12 order-lg-1 order-2">
+                <div class="border border-1 rounded-1">
+                    <img src="./Images/Img1.png" alt="" class="w-100">
+                    <div class="mt-2 p-2 pb-0">
+                        <p class="fw-semibold">✍️ Article</p>
+                    </div>
+                    <div class="d-flex justify-content-between m-1 p-2 pt-0 pb-0">
+                        <h5 class="fw-bold w-100 p-head">What if famous brands had regular fonts? Meet RegulaBrands!
+                        </h5>
+                        <i class="bi bi-three-dots fw-bold"></i>
+                    </div>
+                    <div class="p-2 pt-0">
+                        <p class="text-secondary d-sm-flex d-none">I’ve worked in UX for the better part of a decade.
+                            From now on, I plan
+                            to rei…</p>
+                        <p class="text-secondary d-sm-none d-flex p-txt ms-1">I’ve worked in UX for the better part of a
+                            decade.
+                            F..</p>
+                    </div>
+                    <div class="p-2 pt-0 mb-2 d-flex justify-content-between">
+                        <div class="d-sm-flex d-none align-items-center">
+                            <div class="bg-dark profile">
+                                <img src="./Images/p1.png" alt="">
+                            </div>
+                            <p class="text-center ms-2 mt-2 fw-semibold">Sarthak Kamra</p>
+                        </div>
+
+                        <div class="d-sm-none d-flex justify-content-around align-items-center">
+                            <div class="bg-dark profile">
+                                <img src="./Images/p1.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column justify-content-evenly profile-info">
+                                <p class="text-center ms-2 mt-2 fw-semibold">Sarthak Kamra</p>
+                                <p class="views text-center">1.4k Views</p>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-flex d-none text-center align-items-center">
+                            <div>
+                                <p class="views"><i class="bi bi-eye"></i> 1.4k Views</p>
+                            </div>
+                            <div>
+                                <i class="bi bi-share-fill ms-4 rounded-1"></i>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-none d-flex text-center align-items-center">
+                            <div>
+                                <i class="bi bi-share-fill ms-4 rounded-1"><span
+                                        class="fst-normal ms-2">Share</span></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-1 rounded-1 mt-3">
+                    <img src="./Images/Img2.png" alt="" class="w-100">
+                    <div class="mt-2 p-2 pb-0">
+                        <p class="fw-semibold">🔬️ Education</p>
+                    </div>
+                    <div class="d-flex justify-content-between m-1 p-2 pt-0 pb-0">
+                        <h5 class="fw-bold w-lg-50 w-100 p-head">Tax Benefits for Investment under National Pension
+                            Scheme
+                            launched by
+                            Government</h5>
+                        <i class="bi bi-three-dots fw-bold"></i>
+                    </div>
+                    <div class="p-2 pt-0">
+                        <p class="text-secondary d-sm-flex d-none">I’ve worked in UX for the better part of a decade.
+                            From now on, I plan
+                            to rei…</p>
+                        <p class="text-secondary d-sm-none d-flex p-txt">I’ve worked in UX for the better part of a
+                            decade.
+                            F..</p>
+                    </div>
+                    <div class="p-2 pt-0 mb-2 d-flex justify-content-between">
+                        <div class="d-sm-flex d-none align-items-center">
+                            <div class="bg-dark profile">
+                                <img src="./Images/p2.png" alt="">
+                            </div>
+                            <p class="text-center ms-2 mt-2 fw-semibold">Sarah West</p>
+                        </div>
+
+                        <div class="d-sm-none d-flex justify-content-around align-items-center">
+                            <div class="bg-dark profile">
+                                <img src="./Images/p2.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column justify-content-evenly profile-info ms-2">
+                                <p class="text-center ms-2 mt-2 fw-semibold">Sarah West</p>
+                                <p class="views text-center">1.4k Views</p>
+                            </div>
+                        </div>
+
+
+                        <div class="d-sm-flex d-none text-center align-items-center">
+                            <div>
+                                <p class="views"><i class="bi bi-eye"></i> 1.4k Views</p>
+                            </div>
+                            <div>
+                                <i class="bi bi-share-fill ms-4 rounded-1"></i>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-none d-flex text-center align-items-center">
+                            <div>
+                                <i class="bi bi-share-fill ms-4 rounded-1"><span
+                                        class="fst-normal ms-2">Share</span></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-1 rounded-1 mt-3">
+                    <img src="./Images/Img3.png" alt="" class="w-100">
+                    <div class="mt-2 p-2 pb-0">
+                        <p class="fw-semibold">🗓️ Meetup</p>
+                    </div>
+                    <div class="d-flex justify-content-between m-1 p-2 pt-0 pb-0">
+                        <div>
+                            <h5 class="fw-bold p-head">Finance & Investment Elite Social Mixer @Lujiazui</h5>
+                            <div class="d-flex fw-semibold">
+                                <p class="date"><i class="bi bi-calendar-event"></i> Fri, 12 Oct, 2018</p>
+                                <p class="location"><i class="bi bi-geo-alt ms-sm-5"></i> Ahmedabad, India</p>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="btn btn-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-three-dots fw-bold"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                <li><a class="dropdown-item" href="#">Report</a></li>
+                                <li><a class="dropdown-item" href="#">Option 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-2 pt-0 mb-4">
+                        <button class="p-2 fw-semibold border rounded-3">Visit Website</button>
+                    </div>
+                    <div class="p-2 pt-0 mb-2 d-flex justify-content-between">
+                        <div class="d-sm-flex d-none align-items-center">
+                            <div class="bg-dark profile">
+                                <img src="./Images/p3.png" alt="">
+                            </div>
+                            <p class="text-center ms-2 mt-2 fw-semibold">Ronal Jones</p>
+                        </div>
+
+                        <div class="d-sm-none d-flex justify-content-around align-items-center">
+                            <div class="bg-dark profile">
+                                <img src="./Images/p3.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column justify-content-evenly profile-info ms-2">
+                                <p class="text-center ms-2 mt-2 fw-semibold">Ronal Jones</p>
+                                <p class="views text-center">800 Views</p>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-flex d-none text-center align-items-center">
+                            <div>
+                                <p class="views"><i class="bi bi-eye"></i> 1.4k Views</p>
+                            </div>
+                            <div>
+                                <i class="bi bi-share-fill ms-4 rounded-1"></i>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-none d-flex text-center align-items-center">
+                            <div>
+                                <i class="bi bi-share-fill ms-4 rounded-1"><span
+                                        class="fst-normal ms-2">Share</span></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="border border-1 rounded-1 mt-3">
+                    <div class="mt-2 p-2 pb-0">
+                        <p class="fw-semibold">💼️ Job</p>
+                    </div>
+                    <div class="d-flex justify-content-between m-1 p-2 pt-0 pb-0">
+                        <div>
+                            <h5 class="fw-bold">Software Developer</h5>
+                            <div class="d-flex fw-semibold">
+                                <p class="d-sm-flex d-none"><i class="bi bi-bag me-2"></i> Innovaccer Analytics Private
+                                    Ltd.</p>
+                                <p class="d-sm-none d-flex date"><i class="bi bi-bag me-2"></i> Innovaccer Analytic...
+                                </p>
+                                <p class="location"><i class="bi bi-geo-alt ms-sm-5"></i> Noida,India</p>
+                            </div>
+                        </div>
+
+                        <div class="dropdown">
+                            <button class="btn btn-light" type="button" data-bs-toggle="dropdown" aria-expanded="false">
+                                <i class="bi bi-three-dots fw-bold"></i>
+                            </button>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item" href="#">Edit</a></li>
+                                <li><a class="dropdown-item" href="#">Report</a></li>
+                                <li><a class="dropdown-item" href="#">Option 3</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                    <div class="p-2 pt-0 mb-4">
+                        <button class="p-2 fw-semibold border rounded-3" style="color: #02B875;">Apply on
+                            Timesjobs</button>
+                    </div>
+                    <div class="p-2 pt-0 mb-2 d-flex justify-content-between">
+                        <div class="d-sm-flex d-none align-items-center">
+                            <div class="bg-dark profile">
+                                <img src="./Images/p4.png" alt="">
+                            </div>
+                            <p class="text-center ms-2 mt-2 fw-semibold">Joseph Gray</p>
+                        </div>
+
+                        <div class="d-sm-none d-flex justify-content-around align-items-center">
+                            <div class="bg-dark profile">
+                                <img src="./Images/p4.png" alt="">
+                            </div>
+                            <div class="d-flex flex-column justify-content-evenly profile-info ms-2">
+                                <p class="text-center ms-2 mt-2 fw-semibold">Joseph Gray</p>
+                                <p class="views text-center">1.4k Views</p>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-flex d-none text-center align-items-center">
+                            <div>
+                                <p class="views"><i class="bi bi-eye"></i> 1.4k Views</p>
+                            </div>
+                            <div>
+                                <i class="bi bi-share-fill ms-4 rounded-1"></i>
+                            </div>
+                        </div>
+
+                        <div class="d-sm-none d-flex text-center align-items-center">
+                            <div>
+                                <i class="bi bi-share-fill ms-4 rounded-1"><span
+                                        class="fst-normal ms-2">Share</span></i>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="col-lg-2 col-md-0 order-lg-2"></div>
+            <div class="col-lg-3 col-12 d-md-flex flex-column d-none order-lg-3 order-1">
+                <div class="d-flex justify-content-between">
+                    <div class="d-flex">
+                        <i class="bi bi-geo-alt"></i>
+                        <p class="ms-2 fw-semibold">Noida,India</p>
+                    </div>
+                    <div>
+                        <i class="bi bi-pencil-fill fw-bold"></i>
+                    </div>
+                </div>
+                <hr class="p-0 m-0">
+                <div class="d-flex mt-lg-5 mt-2 mb-lg-2 mb-4">
+                    <i class="bi bi-info-circle"></i>
+                    <p class="ms-2 text-secondary">Your location will help us serve better and extend a personalised
+                        experience.</p>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+
+    <div class="modal fade" id="exampleModalToggle" aria-hidden="true" aria-labelledby="exampleModalToggleLabel"
+        tabindex="-1">
+        <div class="modal-dialog modal-lg fixed-bottom">
+            <div class="modal-content">
+                <div class="modal-header d-md-flex d-none justify-content-center">
+                    <h6 class="modal-title fs-6" id="exampleModalToggleLabel">Let's learn, share & inspire each other
+                        with our passion for computer engineering. Sign up now 🤘🏼</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row p-3">
+                        <div class="col-md-6">
+                            <div class="d-flex justify-content-between">
+                                <h3 class="mb-4">Create Account</h3>
+                                <button type="button" class="btn-close d-md-none d-flex" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div>
+                                <form action="">
+                                    <div class="d-flex justify-content-between">
+                                        <input type="text" placeholder="First Name" class="p-2 border border-1">
+                                        <input type="text" placeholder="Last Name" class="p-2 border border-1 w-75">
+                                    </div>
+                                    <div class="form-input-group">
+                                        <input type="email" placeholder="Email" class="p-2 border border-1">
+                                    </div>
+                                    <div class="form-input-group">
+                                        <input type="password" placeholder="Password" class="p-2 border border-1">
+                                        <i class="bi bi-eye"></i>
+                                    </div>
+                                    <div class="form-input-group">
+                                        <input type="password" placeholder="Confirm Password"
+                                            class="p-2 border border-1">
+                                    </div>
+
+                                    <div class="mt-4 d-md-flex d-none">
+                                        <button class="btn btn-primary rounded-5">Create Account</button>
+                                    </div>
+
+                                    <div class="mt-4 d-md-none d-flex justify-content-between">
+                                        <div class="w-50">
+                                            <button class="btn btn-primary rounded-5">Create Account</button>
+                                        </div>
+                                        <a data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                                            class="text-dark text-decoration-underline">Or, Sign In</a>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <button class="btn btn-white border rounded-1"><i
+                                                class="bi bi-facebook text-primary"></i> Sign up with Facebook</button>
+                                    </div>
+
+                                    <div class="mt-2">
+                                        <button class="btn btn-white border rounded-1"><i class="bi bi-google"></i> Sign
+                                            up with Google</button>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 account">
+                            <a href="" class="text-dark text-decoration-none float-md-end">Already have an account ?
+                                <span class="text-primary text-decoration-underline"
+                                    data-bs-target="#exampleModalToggle2" data-bs-toggle="modal" id="signInLink">Sign
+                                    in</span></a>
+                            <img src="./Images/create-account.png" class="mt-4" alt="">
+                            <p style="font-size: 12px;">By signing up, you agree to our Terms & conditions, Privacy
+                                policy</p>
+                        </div>
+                        <div class="col-md-6 signin mt-2">
+                            <p style="font-size: 12px;">By signing up, you agree to our Terms & conditions, Privacy
+                                policy</p>
+
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="modal fade" id="exampleModalToggle2" aria-hidden="true" aria-labelledby="exampleModalToggleLabel2"
+        tabindex="-1">
+        <div class="modal-dialog modal-lg modal-dialog-centered">
+            <div class="modal-content">
+                <div class="modal-header d-md-flex d-none justify-content-center">
+                    <h6 class="modal-title fs-6" id="exampleModalToggleLabel">Let's learn, share & inspire each other
+                        with our passion for computer engineering. Sign up now 🤘🏼</h6>
+                    <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                </div>
+                <div class="modal-body">
+                    <div class="row p-3 pb-1">
+                        <div class="col-md-6">
+                            <div class="d-flex justify-content-between">
+                                <h3 class="mb-4">Sign In</h3>
+                                <button type="button" class="btn-close d-md-none d-flex" data-bs-dismiss="modal"
+                                    aria-label="Close"></button>
+                            </div>
+                            <div>
+                                <form action="">
+                                    <div class="form-input-group">
+                                        <input type="email" placeholder="Email" class="p-2 border border-1">
+                                    </div>
+                                    <div class="form-input-group">
+                                        <input type="password" placeholder="Password" class="p-2 border border-1">
+                                        <i class="bi bi-eye"></i>
+                                    </div>
+
+                                    <div class="mt-4 d-md-flex d-none">
+                                        <button class="btn btn-primary rounded-5">Sign In</button>
+                                    </div>
+
+                                    <div class="mt-4 d-md-none d-flex justify-content-between">
+                                        <div class="w-50">
+                                            <button class="btn btn-primary rounded-5">Sign In</button>
+                                        </div>
+                                        <a data-bs-target="#exampleModalToggle2" data-bs-toggle="modal"
+                                            class="text-dark text-decoration-underline">Or, Create Account</a>
+                                    </div>
+
+                                    <div class="mt-4">
+                                        <button class="btn btn-white border rounded-1"><i
+                                                class="bi bi-facebook text-primary"></i> Sign up with Facebook</button>
+                                    </div>
+
+                                    <div class="mt-2">
+                                        <button class="btn btn-white border rounded-1"><i class="bi bi-google"></i> Sign
+                                            up with Google</button>
+                                    </div>
+                                    <div class="mt-4 d-flex justify-content-center">
+                                        <p class="fw-semibold">Forget Password ?</p>
+                                    </div>
+                                </form>
+                            </div>
+                        </div>
+                        <div class="col-md-6 account">
+                            <a href="" class="text-dark text-decoration-none float-end">Don’t have an account yet? <span
+                                    class="text-primary text-decoration-underline" data-bs-target="#exampleModalToggle2"
+                                    data-bs-toggle="modal" id="createAccountLink">Create new for free!</span></a>
+                            <img src="./Images/create-account.png" class="mt-4" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+
+<script src="./script.js"></script>
+
+</html>

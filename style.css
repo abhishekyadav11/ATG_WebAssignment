@@ -1,0 +1,289 @@
+@import url('https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;1,100;1,200;1,300;1,400;1,500;1,600;1,700&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "IBM Plex Sans", sans-serif;
+}
+
+
+.bottom-fixed{
+    display: none;
+}
+
+.search{
+    background-color: #f2f2f2;
+}
+
+input{
+    width: 300px;
+    outline: none;
+    border: none;
+    background-color: #f2f2f2;
+}
+
+.img-container {
+    width: 100%; 
+    max-width: 100%; 
+    overflow: hidden; 
+    position: relative; 
+    height: 400px;
+}
+
+.img-header {
+    width: 100%; 
+    object-fit: cover;
+    position: relative;
+    overflow: hidden;
+}
+
+.content{
+    position: absolute;
+}
+
+.nav-link{
+    color: #000;
+}
+
+.post{
+    background-color: #edeef0;
+}
+
+.profile {
+    width: 40px; 
+    height: 40px; 
+    background-color: #343a40; 
+    border-radius: 50%; 
+}
+
+
+.views {
+    margin-bottom: 0; 
+}
+
+.bi-share-fill{
+    padding: 10px;
+    padding-bottom: 10px;
+    height: 30px;
+    background-color: #f2f2f2;
+}
+
+.profile img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+    object-fit: cover;
+}
+
+button{
+    color: #E56135;
+    width: 100%;
+    outline: none;
+    background: #fff;
+    border-color: #f2f2f2;
+}
+
+a{
+    cursor: pointer;
+}
+
+.position-absolute{
+    top: 60%;
+    left: 10%;
+}
+
+.join{
+    display: none;
+    top: 20%;
+    left: 5%;
+}
+
+.text-left{
+    margin-left: -40px;
+}
+
+.createButton{
+    color: #000;
+    text-decoration: none;
+}
+
+.modal-header{
+    background: #EFFFF4;
+}
+
+.modal-title{
+    color: #008A45;
+}
+
+.form-input-group {
+    position: relative; 
+    display: flex;
+    width: 100%; 
+}
+
+.form-input-group input {
+    width: 100%;
+}
+
+.form-input-group i {
+    position: absolute;
+    right: 10px;
+    top: 50%; 
+    transform: translateY(-50%); 
+    cursor: pointer; 
+}
+
+.signin{
+    display: none;
+}
+
+@media (max-width: 992px) {
+    .text-left{
+        margin-left: -25px;
+    }
+
+    .account{
+        display: none;
+    }
+    
+}
+
+@media (max-width: 768px) {
+    .text-left{
+        margin-left: -10px;
+    }
+
+    .modal-dialog {
+        max-width: 100%;
+        width: 100%;
+        margin: auto;
+    }
+
+    .col-md-6{
+        text-align: center;
+    }
+
+    .signin{
+        display: inline;
+    }
+
+}
+
+@media (max-width: 592px) {
+    .position-absolute{
+        top: 40%;
+    }
+
+    .text-left{
+        margin-left: 10px;
+    }
+
+    .img-container{
+        height: 300px;
+    }
+}
+
+@media (max-width: 576px) {
+    .profile-info .ms-2{
+        font-size: 14px;
+        padding: 0;
+        margin: 0;
+    }
+
+    .profile-info .views{
+        font-size: 14px;
+    }
+
+    .join{
+        display: flex;
+        justify-content: space-between;
+        top: 10%;
+        left: 5%;
+    }
+
+    .location{
+        margin-left: 15px;
+    }
+
+}
+
+@media (max-width: 500px) {
+    .img-container{
+        height: 200px;
+    }
+
+    .join h6{
+        right: 1%;
+    }
+
+    .bottom-fixed {
+        display: inline;
+        position: fixed;
+        bottom: 8%;
+        left: 85%; 
+        transform: translateX(-50%); 
+        z-index: 1000; 
+    }
+}
+
+@media (max-width: 428px) {
+    .text-left{
+        margin-left: 0;
+    }
+
+    .position-absolute{
+        top: 40%;
+    }
+
+    .img-container{
+        height: 200px;
+    }
+
+    .location,.date{
+        font-size: 12px;
+    }
+
+    .location{
+        margin-left: 10px;
+    }
+
+    .join{
+        top: 5%;
+        left: 5%;
+    }
+
+}
+
+@media (max-width: 321px) {
+    .p-head{
+        font-size: 15px;
+    }
+
+    .p-txt{
+        font-size: 12px;
+        margin-left: 5px;
+        margin-bottom: 0;
+    }
+
+    button{
+        font-size: 15px;
+    }
+
+    .location,.date{
+        font-size: 12px;
+    }
+
+    .location{
+        margin-left: 5px;
+    }
+
+    .topnav{
+        display: none;
+    }
+
+    .bottom-fixed {
+        bottom: 10%;
+        left: 82%; 
+    }
+    
+}
